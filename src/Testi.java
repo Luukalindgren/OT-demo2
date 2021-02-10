@@ -50,3 +50,37 @@ class LähiKauppa extends Kauppa {
 	}
 	
 }
+
+class Asiakas{
+	protected String nimi;
+	protected int asiakasnro;
+	protected String sposti;
+	
+	public Asiakas(String nimi, int asiakasnro, String sposti) {
+		this.nimi = nimi;
+		this.asiakasnro = asiakasnro;
+		this.sposti = sposti;
+	}
+
+	public String getNimi() {
+		return nimi;
+	}
+
+	public void setNimi(String nimi) {
+		this.nimi = nimi;
+	}
+
+	public String getSposti() {
+		return sposti;
+	}
+
+	public void setSposti(String sposti) {
+		this.sposti = sposti;
+	}
+
+	public int getAsiakasnro() {
+		return asiakasnro;
+	}
+	
+	
+}
